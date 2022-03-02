@@ -15,3 +15,9 @@ Encryption:
 ```bash
 vault write transit/encrypt/tf-encryption-key -format=json plaintext=$(cat backend-config | base64 -w 0) | jq -r .data.ciphertext > backend-config.enc
 ```
+
+## Importing existing repos
+
+```
+terraform import module.terraform_module_github_repo.github_repository.repo repo-name
+```
