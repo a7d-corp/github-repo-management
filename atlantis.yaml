@@ -9,5 +9,5 @@ workflows:
       - plan
 projects:
 - name: terraform-module-github-repo
-  dir: terraform-module-github-repo
+  dir: repositories/terraform-module-github-repo
   workflow: custom
