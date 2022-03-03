@@ -1,5 +1,5 @@
-repo_name        = "terraform-module-github-repo"
-repo_description = "Terraform module to manage Github repos"
+repo_name        = "terraform-github-modules"
+repo_description = "Terraform modules to manage Github repos"
 repo_visibility  = "public"
 
 allow_merge_commit     = false
