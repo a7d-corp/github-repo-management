@@ -19,5 +19,5 @@ vault write transit/encrypt/tf-encryption-key -format=json plaintext=$(cat backe
 ## Importing existing repos
 
 ```
-terraform import module.terraform_module_github_repo.github_repository.repo repo-name
+terraform import module.github_repository.github_repository.repo repo-name
 ```
