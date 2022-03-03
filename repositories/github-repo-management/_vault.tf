@@ -1,3 +1,5 @@
+provider "vault" {}
+
 # github_repository_webhook
 
 data "vault_generic_secret" "atlantis_webhook_url" {
