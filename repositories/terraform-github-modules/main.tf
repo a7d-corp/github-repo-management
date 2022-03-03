@@ -1,5 +1,5 @@
-module "terraform_module_github_repo" {
-  source = "github.com/glitchcrab/terraform-module-github-repo"
+module "github_repository" {
+  source = "github.com/glitchcrab/terraform-github-modules//github_repository"
 
   repo_name        = var.repo_name
   repo_description = var.repo_description
