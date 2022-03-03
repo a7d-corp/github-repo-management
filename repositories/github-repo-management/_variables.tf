@@ -1,3 +1,5 @@
+# github_repository
+
 variable "repo_name" {
   type = string
 }
@@ -20,4 +22,18 @@ variable "allow_rebase_merge" {
 
 variable "delete_branch_on_merge" {
   type = bool
+}
+
+# github_repository_webhook
+
+variable "webhook_enabled" {
+  type = number
+}
+
+variable "webhook_content_type" {
+  type = string
+}
+
+variable "webhook_events" {
+  type = list(string)
 }

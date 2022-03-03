@@ -9,3 +9,15 @@ module "github_repository" {
   allow_rebase_merge     = var.allow_rebase_merge
   delete_branch_on_merge = var.delete_branch_on_merge
 }
+
+module "github_repository_webhook" {
+  source = "github.com/glitchcrab/terraform-github-modules//github_repository_webhook"
+
+  repo_name = var.repo_name
+
+  webhook_enabled = var.webhook_enabled
+  url             = data.vault_generic_secret.atlantis_webhook_url.data["url"]
+  content_type    = var.webhook_content_type
+  secret          = data.vault_generic_secret.atlantis_webhook_secret.data["secret"]
+  events          = var.webhook_events
+}
