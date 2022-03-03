@@ -10,6 +10,5 @@ delete_branch_on_merge = true
 
 # github_repository_webhook
 
-webhook_enabled      = 1
 webhook_content_type = "json"
 webhook_events       = ["issue_comment", "pull_request", "pull_request_review", "push"]

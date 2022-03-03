@@ -26,10 +26,6 @@ variable "delete_branch_on_merge" {
 
 # github_repository_webhook
 
-variable "webhook_enabled" {
-  type = number
-}
-
 variable "webhook_content_type" {
   type = string
 }

@@ -15,9 +15,8 @@ module "github_repository_webhook" {
 
   repo_name = var.repo_name
 
-  webhook_enabled = var.webhook_enabled
-  url             = data.vault_generic_secret.atlantis_webhook_url.data["url"]
-  content_type    = var.webhook_content_type
-  secret          = data.vault_generic_secret.atlantis_webhook_secret.data["secret"]
-  events          = var.webhook_events
+  url          = data.vault_generic_secret.atlantis_webhook_url.data["url"]
+  content_type = var.webhook_content_type
+  secret       = data.vault_generic_secret.atlantis_webhook_secret.data["secret"]
+  events       = var.webhook_events
 }
