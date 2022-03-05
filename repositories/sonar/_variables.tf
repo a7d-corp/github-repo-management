@@ -10,6 +10,14 @@ variable "repo_visibility" {
   type = string
 }
 
+variable "has_issues" {
+  type = bool
+}
+
+variable "topics" {
+  type = list(any)
+}
+
 variable "allow_merge_commit" {
   type = bool
 }
