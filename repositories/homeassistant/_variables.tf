@@ -29,3 +29,9 @@ variable "allow_rebase_merge" {
 variable "delete_branch_on_merge" {
   type = bool
 }
+
+# github_repository_collaborator
+
+variable "collaborator_name" {
+  type = string
+}
