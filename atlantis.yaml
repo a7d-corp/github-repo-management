@@ -11,6 +11,9 @@ projects:
 - name: github-repo-management
   dir: repositories/github-repo-management
   workflow: custom
+- name: sonar
+  dir: repositories/sonar
+  workflow: custom
 - name: terraform-github-modules
   dir: repositories/terraform-github-modules
   workflow: custom
