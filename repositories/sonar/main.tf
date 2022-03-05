@@ -13,3 +13,10 @@ module "github_repository" {
   allow_rebase_merge     = var.allow_rebase_merge
   delete_branch_on_merge = var.delete_branch_on_merge
 }
+
+module "github_repository_collaborator" {
+  source = "github.com/glitchcrab/terraform-github-modules//github_repository_collaborator"
+
+  repo_name         = var.repo_name
+  collaborator_name = var.collaborator_name
+}
