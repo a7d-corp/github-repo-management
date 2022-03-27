@@ -1,3 +1,5 @@
+repo_owner = "simonweald"
+
 repo_name        = "homeassistant"
 repo_description = "My personal Home Assistant config"
 repo_visibility  = "public"
