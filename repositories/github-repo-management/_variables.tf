@@ -1,3 +1,9 @@
+# common vars
+
+variable "repo_owner" {
+  type = string
+}
+
 # github_repository
 
 variable "repo_name" {

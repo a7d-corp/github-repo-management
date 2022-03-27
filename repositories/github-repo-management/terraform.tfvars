@@ -1,3 +1,5 @@
+repo_owner = "simonweald"
+
 # github_repository
 
 repo_name        = "github-repo-management"
