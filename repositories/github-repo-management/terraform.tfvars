@@ -1,3 +1,5 @@
+repo_owner = "a7d-corp"
+
 # github_repository
 
 repo_name        = "github-repo-management"

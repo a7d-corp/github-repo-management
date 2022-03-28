@@ -1,3 +1,5 @@
+repo_owner = "a7d-corp"
+
 repo_name        = "homelab-kubernetes-fleet"
 repo_description = "Flux repo for Kubernetes homelab"
 repo_visibility  = "private"

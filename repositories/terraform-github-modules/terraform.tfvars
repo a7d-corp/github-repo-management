@@ -1,3 +1,5 @@
+repo_owner = "a7d-corp"
+
 repo_name        = "terraform-github-modules"
 repo_description = "Terraform modules to manage Github repos"
 repo_visibility  = "public"

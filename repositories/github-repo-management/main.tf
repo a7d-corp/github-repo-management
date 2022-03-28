@@ -1,5 +1,5 @@
 module "github_repository" {
-  source = "github.com/glitchcrab/terraform-github-modules//github_repository"
+  source = "github.com/a7d-corp/terraform-github-modules//github_repository"
 
   repo_name        = var.repo_name
   repo_description = var.repo_description
@@ -11,7 +11,7 @@ module "github_repository" {
 }
 
 module "github_repository_webhook" {
-  source = "github.com/glitchcrab/terraform-github-modules//github_repository_webhook"
+  source = "github.com/a7d-corp/terraform-github-modules//github_repository_webhook"
 
   repo_name = var.repo_name
 
