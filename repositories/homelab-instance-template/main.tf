@@ -5,6 +5,8 @@ module "github_repository" {
   repo_description = var.repo_description
   repo_visibility  = var.repo_visibility
 
+  is_template = var.is_template
+
   topics = var.topics
 
   has_issues = var.has_issues

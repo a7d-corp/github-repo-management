@@ -18,6 +18,10 @@ variable "repo_visibility" {
   type = string
 }
 
+variable "is_template" {
+  type = bool
+}
+
 variable "has_issues" {
   type = bool
 }

@@ -4,6 +4,8 @@ repo_name        = "homelab-instance-template"
 repo_description = "Template repo for managing a Proxmox instance with Terraform."
 repo_visibility  = "public"
 
+is_template = true
+
 topics = ["proxmox", "virtualisation", "virtualization", "terraform", "homelab"]
 
 has_issues = true
