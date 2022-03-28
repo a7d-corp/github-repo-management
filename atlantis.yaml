@@ -20,6 +20,9 @@ projects:
 - name: homeassistant
   dir: repositories/homeassistant
   workflow: custom
+- name: homelab-instance-tailscale-relay
+  dir: repositories/homelab-instance-tailscale-relay
+  workflow: custom
 - name: homelab-instance-template
   dir: repositories/homelab-instance-template
   workflow: custom
