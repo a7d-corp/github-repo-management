@@ -1,3 +1,5 @@
+repo_owner = "a7d-corp"
+
 repo_name        = "sonar"
 repo_description = "Sonar deploys a debugging container to a Kubernetes cluster"
 repo_visibility  = "public"
