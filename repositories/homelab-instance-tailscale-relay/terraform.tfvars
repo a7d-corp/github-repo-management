@@ -4,7 +4,7 @@ repo_name        = "homelab-instance-tailscale-relay"
 repo_description = "Config for managing the tailscale-relay instance."
 repo_visibility  = "public"
 
-topics = ["proxmox", "terraform", "virtualisation", "virtualization"]]
+topics = ["proxmox", "terraform", "virtualisation", "virtualization"]
 
 has_issues = true
 
