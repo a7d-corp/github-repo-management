@@ -1,4 +1,4 @@
-repo_owner = "simonweald"
+repo_owner = "a7d-corp"
 
 repo_name        = "homeassistant"
 repo_description = "My personal Home Assistant config"
