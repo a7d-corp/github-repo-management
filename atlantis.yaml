@@ -29,3 +29,6 @@ projects:
 - name: terraform-github-modules
   dir: repositories/terraform-github-modules
   workflow: custom
+- name: terraform-module-proxmox-cloudinit-template
+  dir: repositories/terraform-module-proxmox-cloudinit-template
+  workflow: custom
