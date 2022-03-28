@@ -1,3 +1,11 @@
+# common vars
+
+variable "repo_owner" {
+  type = string
+}
+
+# repo vars
+
 variable "repo_name" {
   type = string
 }
