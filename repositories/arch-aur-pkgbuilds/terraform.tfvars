@@ -1,4 +1,4 @@
-repo_owner = "simonweald"
+repo_owner = "a7d-corp"
 
 repo_name        = "arch-aur-pkgbuilds"
 repo_description = "PKGBUILDS for AUR packages I maintain"
