@@ -17,6 +17,9 @@ projects:
 - name: homeassistant
   dir: repositories/homeassistant
   workflow: custom
+- name: homelab-instance-template
+  dir: repositories/homelab-instance-template
+  workflow: custom
 - name: homelab-kubernetes-fleet
   dir: repositories/homelab-kubernetes-fleet
   workflow: custom
