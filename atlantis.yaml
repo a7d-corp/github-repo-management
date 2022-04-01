@@ -35,6 +35,9 @@ projects:
 - name: homelab-kubernetes-fleet
   dir: repositories/homelab-kubernetes-fleet
   workflow: custom
+- name: homelab-misc
+  dir: repositories/homelab-misc
+  workflow: custom
 - name: sonar
   dir: repositories/sonar
   workflow: custom
