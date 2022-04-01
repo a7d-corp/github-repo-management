@@ -8,6 +8,9 @@ workflows:
           extra_args: [-backend-config=/minio-backend-config/backend-config]
       - plan
 projects:
+- name: action-build-aur-package
+  dir: repositories/action-build-aur-package
+  workflow: custom
 - name: arch-aur-pkgbuilds
   dir: repositories/arch-aur-pkgbuilds
   workflow: custom
