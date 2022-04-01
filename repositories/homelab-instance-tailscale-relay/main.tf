@@ -7,6 +7,10 @@ module "github_repository" {
 
   topics = var.topics
 
+  from_template       = var.from_template
+  template_repo_owner = var.template_repo_owner
+  template_repo_name  = var.template_repo_name
+
   has_issues = var.has_issues
 
   allow_merge_commit     = var.allow_merge_commit

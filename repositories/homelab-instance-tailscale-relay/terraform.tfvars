@@ -6,6 +6,10 @@ repo_visibility  = "public"
 
 topics = ["proxmox", "terraform", "virtualisation", "virtualization"]
 
+from_template       = true
+template_repo_owner = "a7d-corp"
+template_repo_name  = "homelab-instance-template"
+
 has_issues = true
 
 allow_merge_commit     = false
