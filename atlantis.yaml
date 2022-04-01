@@ -38,7 +38,6 @@ projects:
 - name: homelab-misc
   dir: repositories/homelab-misc
   workflow: custom
-- name: terraform-github-modules
 - name: sonar
   dir: repositories/sonar
   workflow: custom
