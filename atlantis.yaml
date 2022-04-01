@@ -26,6 +26,9 @@ projects:
 - name: homelab-cluster-kubernetes-management
   dir: repositories/homelab-cluster-kubernetes-management
   workflow: custom
+- name: homelab-instance-conductor
+  dir: repositories/homelab-instance-conductor
+  workflow: custom
 - name: homelab-instance-tailscale-relay
   dir: repositories/homelab-instance-tailscale-relay
   workflow: custom
