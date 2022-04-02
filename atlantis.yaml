@@ -14,6 +14,9 @@ projects:
 - name: arch-aur-pkgbuilds
   dir: repositories/arch-aur-pkgbuilds
   workflow: custom
+- name: arch-build-container
+  dir: repositories/arch-build-container
+  workflow: custom
 - name: debug-container
   dir: repositories/debug-container
   workflow: custom
