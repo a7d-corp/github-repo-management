@@ -1,6 +1,6 @@
 repo_owner = "a7d-corp"
 
-repo_name        = "homelab-cluster-kubernetes-management "
+repo_name        = "homelab-cluster-kubernetes-management"
 repo_description = "Configuration for my Kubernetes management cluster on Proxmox."
 repo_visibility  = "public"
 
