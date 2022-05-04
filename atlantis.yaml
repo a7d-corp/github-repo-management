@@ -41,6 +41,9 @@ projects:
 - name: homelab-instance-template
   dir: repositories/homelab-instance-template
   workflow: custom
+- name: homelab-k8s-cluster-room101-a7d-mc
+  dir: repositories/homelab-k8s-cluster-room101-a7d-mc
+  workflow: custom
 - name: homelab-kubernetes-fleet
   dir: repositories/homelab-kubernetes-fleet
   workflow: custom
