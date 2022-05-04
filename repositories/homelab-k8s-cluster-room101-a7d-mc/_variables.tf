@@ -26,6 +26,18 @@ variable "topics" {
   type = list(any)
 }
 
+variable "from_template" {
+  type = bool
+}
+
+variable "template_repo_owner" {
+  type = string
+}
+
+variable "template_repo_name" {
+  type = string
+}
+
 variable "allow_merge_commit" {
   type = bool
 }
