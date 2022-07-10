@@ -11,6 +11,21 @@ projects:
 - name: action-build-aur-package
   dir: repositories/action-build-aur-package
   workflow: custom
+- name: ansible-role-docker-host
+  dir: repositories/ansible-role-docker-host
+  workflow: custom
+- name: ansible-role-os-updates
+  dir: repositories/ansible-role-os-updates
+  workflow: custom
+- name: ansible-role-packages
+  dir: repositories/ansible-role-packages
+  workflow: custom
+- name: ansible-role-server-hardening
+  dir: repositories/ansible-role-server-hardening
+  workflow: custom
+- name: ansible-role-users
+  dir: repositories/ansible-role-users
+  workflow: custom
 - name: arch-aur-pkgbuilds
   dir: repositories/arch-aur-pkgbuilds
   workflow: custom
