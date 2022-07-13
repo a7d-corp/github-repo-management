@@ -11,6 +11,9 @@ projects:
 - name: action-build-aur-package
   dir: repositories/action-build-aur-package
   workflow: custom
+- name: ansible-core
+  dir: repositories/ansible-core
+  workflow: custom
 - name: ansible-role-docker-host
   dir: repositories/ansible-role-docker-host
   workflow: custom
