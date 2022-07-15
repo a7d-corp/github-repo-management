@@ -2,7 +2,7 @@ repo_owner = "a7d-corp"
 
 repo_name        = "ansible-infrastructure-playbooks"
 repo_description = "Playbooks to manage infrastructure components"
-repo_visibility  = "public"
+repo_visibility  = "private"
 
 topics = ["ansible", "infrastructure"]
 
