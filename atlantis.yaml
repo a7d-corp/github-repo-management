@@ -14,6 +14,9 @@ projects:
 - name: ansible-core
   dir: repositories/ansible-core
   workflow: custom
+- name: ansible-infrastructure-playbooks
+  dir: repositories/ansible-infrastructure-playbooks
+  workflow: custom
 - name: ansible-role-docker-host
   dir: repositories/ansible-role-docker-host
   workflow: custom
