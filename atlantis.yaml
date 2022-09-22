@@ -77,9 +77,6 @@ projects:
 - name: homelab-misc
   dir: repositories/homelab-misc
   workflow: custom
-- name: room101-lab-fleet
-  dir: repositories/room101-lab-fleet
-  workflow: custom
 - name: sonar
   dir: repositories/sonar
   workflow: custom
