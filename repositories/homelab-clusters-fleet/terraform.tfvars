@@ -1,6 +1,6 @@
 repo_owner = "a7d-corp"
 
-repo_name        = "room101-lab-fleet"
+repo_name        = "homelab-clusters-fleet"
 repo_description = "Flux repo for Kubernetes homelab"
 repo_visibility  = "public"
 
