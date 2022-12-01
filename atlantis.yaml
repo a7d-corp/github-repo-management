@@ -38,6 +38,9 @@ projects:
 - name: arch-build-container
   dir: repositories/arch-build-container
   workflow: custom
+- name: commandline-tricks
+  dir: repositories/commandline-tricks
+  workflow: custom
 - name: debug-container
   dir: repositories/debug-container
   workflow: custom
