@@ -1,4 +1,6 @@
 resource "github_repository_file" "codeowners" {
+  depends_on = [module.github_repository]
+
   repository          = var.repo_name
   branch              = var.repo_branch
   file                = "CODEOWNERS"
@@ -10,6 +12,8 @@ resource "github_repository_file" "codeowners" {
 }
 
 resource "github_repository_file" "workflow_create_release" {
+  depends_on = [module.github_repository]
+
   repository          = var.repo_name
   branch              = var.repo_branch
   file                = ".github/workflows/zz_generated.create_release.yaml"
@@ -21,6 +25,8 @@ resource "github_repository_file" "workflow_create_release" {
 }
 
 resource "github_repository_file" "workflow_create_release_pr" {
+  depends_on = [module.github_repository]
+
   repository          = var.repo_name
   branch              = var.repo_branch
   file                = ".github/workflows/zz_generated.create_release_pr.yaml"
@@ -32,6 +38,8 @@ resource "github_repository_file" "workflow_create_release_pr" {
 }
 
 resource "github_repository_file" "workflow_changelog_validate" {
+  depends_on = [module.github_repository]
+
   repository          = var.repo_name
   branch              = var.repo_branch
   file                = ".github/workflows/changelog-validate.yaml"
