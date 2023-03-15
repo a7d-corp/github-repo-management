@@ -74,6 +74,9 @@ projects:
 - name: homelab-instance-template
   dir: repositories/homelab-instance-template
   workflow: custom
+- name: homelab-instance-truenas
+  dir: repositories/homelab-instance-truenas
+  workflow: custom
 - name: homelab-k8s-cluster-room101-a7d-mc
   dir: repositories/homelab-k8s-cluster-room101-a7d-mc
   workflow: custom
