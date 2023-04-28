@@ -47,6 +47,9 @@ projects:
 - name: debug-container
   dir: repositories/debug-container
   workflow: custom
+- name: diun-github-issue-creator
+  dir: repositories/diun-github-issue-creator
+  workflow: custom
 - name: dot-github
   dir: repositories/dot-github
   workflow: custom
