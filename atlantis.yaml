@@ -101,6 +101,9 @@ projects:
 - name: terraform-module-proxmox-cloudinit-template
   dir: repositories/terraform-module-proxmox-cloudinit-template
   workflow: custom
+- name: terraform-module-proxmox-container
+  dir: repositories/terraform-module-proxmox-container
+  workflow: custom
 - name: terraform-module-proxmox-instance
   dir: repositories/terraform-module-proxmox-instance
   workflow: custom
