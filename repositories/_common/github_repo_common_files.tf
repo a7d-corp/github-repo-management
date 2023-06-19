@@ -73,7 +73,7 @@ resource "github_repository_file" "config_terraform_docs" {
   repository          = var.repo_name
   branch              = var.repo_branch
   file                = ".terraform-docs.yml"
-  content             = file("${path.module}/files/files/tooling/terraform-docs.yml")
+  content             = file("${path.module}/files/tooling/terraform-docs.yml")
   commit_message      = "Managed by Terraform"
   commit_author       = "Terraform"
   commit_email        = "terraform-github@simonweald.com"
