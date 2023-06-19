@@ -1,5 +1,1 @@
-variable "repo_branch" {
-  default     = "main"
-  type        = string
-  description = "Default branch name"
-}
+../_common/github_repo_common_files_variables.tf
