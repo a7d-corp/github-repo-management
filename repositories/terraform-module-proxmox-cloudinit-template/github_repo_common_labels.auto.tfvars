@@ -1,0 +1,1 @@
+../_common/github_repo_common_labels.auto.tfvars
