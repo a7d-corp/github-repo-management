@@ -1,3 +1,3 @@
 issue_labels = {
-  "skip-verify-changelog" = "#FBCA04"
+  "skip-verify-changelog" = "FBCA04"
 }
