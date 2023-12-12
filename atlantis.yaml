@@ -47,6 +47,9 @@ projects:
 - name: debug-container
   dir: repositories/debug-container
   workflow: custom
+- name: dickingwithdocker.com
+  dir: repositories/dickingwithdocker.com
+  workflow: custom
 - name: diun-github-issue-creator
   dir: repositories/diun-github-issue-creator
   workflow: custom
