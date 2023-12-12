@@ -8,6 +8,9 @@ workflows:
           extra_args: [-backend-config=/minio-backend-config/backend-config]
       - plan
 projects:
+- name: a7d-corp
+  dir: repositories/a7d-corp
+  workflow: custom
 - name: action-build-aur-package
   dir: repositories/action-build-aur-package
   workflow: custom
@@ -47,6 +50,9 @@ projects:
 - name: dickingwithdocker.com
   dir: repositories/dickingwithdocker.com
   workflow: custom
+- name: diun-github-issue-creator
+  dir: repositories/diun-github-issue-creator
+  workflow: custom
 - name: dot-github
   dir: repositories/dot-github
   workflow: custom
@@ -77,6 +83,9 @@ projects:
 - name: homelab-instance-template
   dir: repositories/homelab-instance-template
   workflow: custom
+- name: homelab-instance-truenas
+  dir: repositories/homelab-instance-truenas
+  workflow: custom
 - name: homelab-k8s-cluster-room101-a7d-mc
   dir: repositories/homelab-k8s-cluster-room101-a7d-mc
   workflow: custom
@@ -94,6 +103,9 @@ projects:
   workflow: custom
 - name: terraform-module-proxmox-cloudinit-template
   dir: repositories/terraform-module-proxmox-cloudinit-template
+  workflow: custom
+- name: terraform-module-proxmox-container
+  dir: repositories/terraform-module-proxmox-container
   workflow: custom
 - name: terraform-module-proxmox-instance
   dir: repositories/terraform-module-proxmox-instance

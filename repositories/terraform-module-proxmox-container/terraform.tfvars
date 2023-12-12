@@ -1,10 +1,10 @@
 repo_owner = "a7d-corp"
 
-repo_name        = "terraform-module-proxmox-instance"
-repo_description = "Terraform module to manage VM instances on Proxmox hosts"
+repo_name        = "terraform-module-proxmox-container"
+repo_description = "Terraform module to manage LXC containers on Proxmox hosts"
 repo_visibility  = "public"
 
-topics = ["proxmox", "terraform", "cloud-init"]
+topics = ["proxmox", "terraform", "lxc"]
 
 has_issues = true
 
