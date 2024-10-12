@@ -74,6 +74,9 @@ projects:
 - name: homelab-instance-ansible-bastion
   dir: repositories/homelab-instance-ansible-bastion
   workflow: custom
+- name: homelab-instance-code-server
+  dir: repositories/homelab-instance-code-server
+  workflow: custom
 - name: homelab-instance-conductor
   dir: repositories/homelab-instance-conductor
   workflow: custom
