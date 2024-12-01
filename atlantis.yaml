@@ -98,6 +98,9 @@ projects:
 - name: homelab-misc
   dir: repositories/homelab-misc
   workflow: custom
+- name: packer-image-builds
+  dir: repositories/packer-image-builds
+  workflow: custom
 - name: sonar
   dir: repositories/sonar
   workflow: custom
