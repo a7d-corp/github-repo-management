@@ -71,6 +71,9 @@ projects:
 - name: homelab-instance-actions-runner
   dir: repositories/homelab-instance-actions-runner
   workflow: custom
+- name: homelab-instance-ansible
+  dir: repositories/homelab-instance-ansible
+  workflow: custom
 - name: homelab-instance-ansible-bastion
   dir: repositories/homelab-instance-ansible-bastion
   workflow: custom

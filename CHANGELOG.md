@@ -11,6 +11,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Add `a7d-corp/dickingwithdocker.com`.
 - Add `a7d-corp/packer-image-builds`.
+- Add `a7d-corp/homelab-instance-ansible`.
 
 [Unreleased]: https://github.com/a7d-corp/github-repo-management/tree/main
 
