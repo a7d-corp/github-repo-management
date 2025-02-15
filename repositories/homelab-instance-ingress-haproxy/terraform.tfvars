@@ -4,7 +4,7 @@ repo_name        = "homelab-instance-ingress-haproxy"
 repo_description = "Configuration for Proxmox instance ingress-haproxy"
 repo_visibility  = "public"
 
-topics = ["proxmox", "terraform", "homelab", "virtualization", "virtualisation", "haproxy"]
+topics = ["proxmox", "terraform", "homelab", "virtualization", "virtualisation", "haproxy", "networking"]
 
 has_issues = true
 
