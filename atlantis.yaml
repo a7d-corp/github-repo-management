@@ -65,6 +65,9 @@ projects:
 - name: homelab-cluster-kubernetes-management
   dir: repositories/homelab-cluster-kubernetes-management
   workflow: custom
+- name: homelab-clusters-addons
+  dir: repositories/homelab-clusters-addons
+  workflow: custom
 - name: homelab-clusters-fleet
   dir: repositories/homelab-clusters-fleet
   workflow: custom
