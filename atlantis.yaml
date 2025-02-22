@@ -89,6 +89,9 @@ projects:
 - name: homelab-instance-ingress-haproxy
   dir: repositories/homelab-instance-ingress-haproxy
   workflow: custom
+- name: homelab-instance-proxmox-proxy
+  dir: repositories/homelab-instance-proxmox-proxy
+  workflow: custom
 - name: homelab-instance-tailscale-relay
   dir: repositories/homelab-instance-tailscale-relay
   workflow: custom
