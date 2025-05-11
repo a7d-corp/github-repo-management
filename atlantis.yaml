@@ -59,6 +59,9 @@ projects:
 - name: github-repo-management
   dir: repositories/github-repo-management
   workflow: custom
+- name: haproxy-dataplane-operator
+  dir: repositories/haproxy-dataplane-operator
+  workflow: custom
 - name: homeassistant
   dir: repositories/homeassistant
   workflow: custom
